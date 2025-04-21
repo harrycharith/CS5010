@@ -1,0 +1,5 @@
+create calendar --name MyCalendar --timezone America/New_York
+use calendar --name MyCalendar
+import sample_events.csv //// Import CLI missing
+show calendar dashboard from 2025-04-01 to 2025-04-30
+exit
